@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    
+	<link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parrot Wings</title>
+
+	<link href="./app/css/all.css" rel="stylesheet">
+	<link href="./dist/css/main.css" rel="stylesheet">
+
+</head>
+  <body>
+  	<header>
+		<div class="header-nav">
+			<div class="container">
+				<div id="nav" class="fixed-menu">
+					<ul class="nav-menu">
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">Home</a></li>
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">Credits</a></li>
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">Exchange</a></li>
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">Partners</a></li>
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">Stock</a></li>
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">Holding</a></li>
+						<li class="nav-menu__item"><a href="#" class="nav-menu__link">About</a></li>
+					</ul>
+				</div>
+				<div class="header__part d-hid header__toggle"> 
+					<div class="menu-toggle-cont"> 
+						<span class="menu-toggle"></span> 
+					</div> 
+				</div>
+			</div>			
+		</div>		
+	</header>
+	
+	<main>	
+		<div class="container container-gray">
+
+			<section class="main-content">
+				<div class="caption-block">
+					<div class="caption-block__item">
+						<h1>ParrotWings Exchange</h1>
+					</div>
+					<div class="caption-block__item">
+						<div class="search">
+							<form class="search-form">
+								<input type="text" name="" class="search-form__input" placeholder="Search...">
+								<button type="submit" class="search-form__button"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</form>
+						</div>
+					</div>				
+				</div>
+				<h2>Products</h2>
+				<div class="product">
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product1.png" alt="" />
+						</a>
+						<p class="product-item__text">2 props</p>
+						<a href="#" class="product-item__link">Unlimited exchange</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product2.png" alt="" />
+						</a>
+						<p class="product-item__text">1 prop</p>
+						<a href="#" class="product-item__link">International exchange</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product3.png" alt="" />
+						</a>
+						<p class="product-item__text">3 props, all</p>
+						<a href="#" class="product-item__link">Additional services</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product4.png" alt="" />
+						</a>
+						<p class="product-item__text">5 props</p>
+						<a href="#" class="product-item__link">Support</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product5.png" alt="" />
+						</a>
+						<p class="product-item__text">5 props</p>
+						<a href="#" class="product-item__link">Support</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+						<div class="popup">
+							<strong class="popup__caption">Popup header</strong>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore.</p>
+						</div>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product6.png" alt="" />
+						</a>
+						<p class="product-item__text">2 props</p>
+						<a href="#" class="product-item__link">Postal delivery</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product7.png" alt="" />
+						</a>
+						<p class="product-item__text">not in access</p>
+						<a href="#" class="product-item__link">Document manager</a>
+						<a href="#" class="product-item__button product-button__gray disabled">Order</a>
+					</div>
+					<div class="product-item">
+						<a href="#">
+							<img class="product-item__image" src="app/images/product8.png" alt="" />
+						</a>
+						<p class="product-item__text">2 props</p>
+						<a href="#" class="product-item__link">Promotions</a>
+						<a href="#" class="product-item__button product-button__gray">Order</a>
+					</div>
+				</div>
+				<div class="block-more">
+					<a href="#" class="block-more__link">More products...</a>
+				</div>
+
+			</section>
+			
+			<aside class="left-block">
+				<div class="form display-none">
+					<form>
+						<div class="form-caprion">
+							<h2 class="form-caprion__text">Sign Up</h2>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-group__input" name="first-name" placeholder="First Name" />
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-group__input" name="name" placeholder="Name" />
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-group__input" name="email" placeholder="Email" />
+						</div>
+						<div class="form-group">
+							<p class="form-group__text">By creating a PW Exchange Account you acknowledge that you have read, understood and agree to the Terms of Use and <a href="#" class="form-group__link">Privacy Policy</a>.</p>
+						</div>
+						<div class="form-group">
+							<div class="form-group__right">
+								<button type="submit" class="form-group__button">Sign Up</button>
+							</div>						
+						</div>		
+					</form>								
+				</div>
+
+				<div class="form">
+					<div class="form-content">
+						<div class="form-caprion">
+							<h2 class="form-caprion__text">Online Monitor</h2>
+						</div>
+						<div class="form-spiner">
+							<div class="fa-3x">
+								<i class="fas fa-circle-notch fa-spin form-spiner__fas"></i>
+								<p class="form-spiner__text">Loading...</p> 
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="form-group__right">
+								<button type="submit" class="form-group__button">Connect</button>
+							</div>						
+						</div>		
+					</div>					
+				</div>
+			</aside>
+
+		</div>
+		
+	</main>
+			
+	<footer>
+		<div class="footer-block">
+			<div class="container footer-block__container">
+				<ul class="footer-block__list">
+					<li class="footer-block__list-item">
+						<a href="#" class="footer-block__list-link"><i class="fab fa-evernote"></i></a>
+					</li>
+					<li class="footer-block__list-item">
+						<a href="#" class="footer-block__list-link"><i class="fab fa-facebook-square"></i></a>
+					</li>
+					<li class="footer-block__list-item">
+						<a href="#" class="footer-block__list-link"><i class="fab fa-pinterest-p"></i></a>
+					</li>
+					<li class="footer-block__list-item">
+						<a href="#" class="footer-block__list-link"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li class="footer-block__list-item">
+						<a href="#" class="footer-block__list-link"><i class="fab fa-youtube"></i></a>
+					</li>
+					<li class="footer-block__list-item">
+						<a href="#" class="footer-block__list-link"><i class="fab fa-github-alt"></i></a>
+					</li>
+				</ul>
+				<p class="footer-block__copy">&copy; Parrot Wings</p>
+			</div>		
+		</div>
+		<div class="footer-info">
+			<div class="container footer-info__container">
+				<div class="footer-info__block">
+					<p class="footer-info__caption">Recruitment Info</p>
+					<p class="footer-info__text">Candidate First Name: Lena</p>
+					<p class="footer-info__text">Candidate Last Name: Pilyushenko</p>
+					<p class="footer-info__text">Spent Time: 3 hours</p>
+					<p class="footer-info__text">Email: elena_pilyushenko@mail.ru</p>
+					<p class="footer-info__text">Test date: 11.02.1021</p>
+				</div>
+				<div class="footer-info__block">
+					<p class="footer-info__caption">Resources</p>
+					<p class="footer-info__text">Loader icon --- (Font Awesome)</p>
+					<p class="footer-info__text">Icons --- (Font Awesome)</p>
+					<p class="footer-info__text">Fonts --- search in this file</p>
+					<p class="footer-info__text">Background --- standart situation: <br/> designer lose file</p>
+				</div>
+				<div class="footer-info__block">
+					<p class="footer-info__caption">Navigation</p>
+					<p class="footer-info__text">Development</p>
+					<p class="footer-info__text">Application</p>
+					<p class="footer-info__text">Holding</p>
+					<p class="footer-info__text">About</p>
+				</div>
+				<div class="footer-info__block">
+					<div class="footer-info__item">
+						<img class="footer-info__image" src="app/images/icon.png" alt="" />
+						<p class="footer-info__notes">Project should work on next stack: IE11, actual version of Firefox, Chrome on desktop and android, Opera (opera mini), Safari on mac and ios.</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="./app/js/script.js"></script>  
+
+  </body>
+</html>

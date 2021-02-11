@@ -1,0 +1,53 @@
+
+header {
+    background: #000  url(../app/images/parrot.png) top center no-repeat;
+    padding: 100px 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+.header-nav {
+    width:100%;  
+    background: rgba(0, 0, 0, 0.85) ;
+}
+.flex-content__full {
+    display: flex;
+    justify-content: space-between;
+}
+.fixed-menu {
+    width:100%;
+}
+.nav-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    @media (max-width: 991px) {
+        padding: 15px 0;
+        display: block;
+    }
+    .flex-content__full;
+    &__item {
+        display: block;
+        flex:1;
+    }
+    &__link {
+        color:#fff;
+        width:100%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        font-size: 1.6em;
+        font-family: 'Oswald-Light';
+        padding: 15px 15px 10px;
+        border-bottom: 5px solid transparent;
+        transition: all 400ms ease;
+    }
+    &__link:hover {
+        color:#0a0a0a;
+        background:#b4b4b4;
+        border-color: #7dff60;
+        transition: all 400ms ease;
+    }
+}
