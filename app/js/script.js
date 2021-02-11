@@ -6,15 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	let i = 0;
 
 	menu.addEventListener('click', ()=> {
-		if (i === 0) {
-			menu.classList.add('menu-toggle-cont_active');
-			fixedMenu.classList.add('show');
-			i = 1; 
-		} else {
-			menu.classList.remove('menu-toggle-cont_active');
-			fixedMenu.classList.remove('show');
-			i = 0; 
-		}
+		menu.classList.toggle('menu-toggle-cont_active');
+		fixedMenu.classList.toggle('show');
 	});
 
 });
